@@ -1,0 +1,27 @@
+body{
+  background-color: #ecf0f1;
+  font-size: 2rem;
+}
+
+.jumbotron{
+  padding-bottom: 0px
+}
+
+.jumboImage{
+  background-image: url("./images/skyline.jpg");
+  height: 95vh;
+  background-position: center;
+}
+
+.profilePic{
+  z-index: 2000;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 0 auto;
+  /*padding on top fixes the problem with the nav bar covering the photo, but it introduces a problem of warping the picture.  Need to have the picture editted to be rounded without using border-radius for this to work 100%.  Will fix when I have a final picture*/
+  padding-top: 2%;
+}
+
+.aboutText{
+  font-size: 3rem;
+}
