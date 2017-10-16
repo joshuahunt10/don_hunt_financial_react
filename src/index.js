@@ -4,5 +4,19 @@ import './index.css';
 import App from './components/App';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import {BrowserRouter, Route, Switch} from 'react-router-dom'
+
+import BaseLayout from './components/BaseLayout'
+
+
+ReactDOM.render(
+
+  <BrowserRouter>
+    <BaseLayout>
+      <Route path='/' component={App} />
+    </BaseLayout>
+  </BrowserRouter>
+
+
+, document.getElementById('root'));
 registerServiceWorker();

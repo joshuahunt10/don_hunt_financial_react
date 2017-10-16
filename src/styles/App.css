@@ -25,3 +25,21 @@ body{
 .aboutText{
   font-size: 3rem;
 }
+
+.jumboFoot{
+  background-color: #7f8c8d;
+  height: 50vh;
+}
+
+.footLinks{
+  list-style-type: none;
+  padding-top: 1%;
+}
+
+.footLinks li{
+  display: inline;
+}
+
+.footLinks li a{
+  color: #ecf0f1;
+}
