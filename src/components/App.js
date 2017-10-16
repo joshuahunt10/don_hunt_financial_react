@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import '../styles/App.css';
-import skyline from '../styles/images/skyline.jpg'
+// import skyline from '../styles/images/skyline.jpg'
 import profilePic from '../styles/images/profile_pic.jpg'
 import afLogo from '../styles/images/american_financial_logo.png'
 
-import BaseLayout from './BaseLayout'
+
 import {Jumbotron, Grid, Row, Col, Thumbnail, Button, PageHeader} from 'react-bootstrap'
 
 class App extends Component {
@@ -16,7 +16,7 @@ class App extends Component {
           {/* <img src={skyline}/> */}
         </Jumbotron>
         <div className="AboutMe" id="AboutMe">
-          <img className="profilePic" src={profilePic} />
+          <img className="profilePic" src={profilePic} alt="profile"/>
           <p className="container aboutText">
             My name is Don Hunt and I want to take time to introduce myself and my family.  I grew up in Pasadena, Texas and have lived in Deer Park, Texas since 1983.  I started my career in the insurance business in 1985 with David Hilditch, whom I still work with today.
           </p>
